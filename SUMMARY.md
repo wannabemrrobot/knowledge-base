@@ -1,6 +1,6 @@
 # Table of contents
 
 * [knowledge-base](README.md)
-* [Hello, Friend](hello-friend/README.md)
-  * [test](hello-friend/test.md)
-
+* [protocols](protocols/README.Md)
+  * [OpenSSh](protocols/OpenSSH.md)
+  * [Samba](protocols/Samba.md)
