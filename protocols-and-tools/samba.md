@@ -16,7 +16,9 @@ It might seem natural to use Windows server to serve files and printers to a net
 
 As Samba is a suite of Unix applications, which is reliable resulting in a lower maintenance cost. In some scenarios, Samba even outperforms Windows 2000 Server by a factor of 2 to 1 on identical PC hardware, according to some third-party benchmarks.
 Most of all, Samba is free! Ever wondered, how softwares like VMware enables sharing of files, between host and VMs? It's on Samba.
-The Samba suite also includes client tools that allow users on a Unix system to access folders and printers that Windows systems and Samba servers offer on the network.
+The Samba suite also includes client tools that allow users on a Unix system to access folders and printers that Windows systems and Samba servers offer on the network. Samba is an important component to seamlessly integrate Linux/Unix Servers and Desktops into Active Directory environments. It can function both as a domain controller or as a regular domain member.
+
+
 
 ## Services offered by the Samba:
 
@@ -31,7 +33,7 @@ The Samba suite also includes client tools that allow users on a Unix system to 
 Samba suite revolves around a pair of Unix daemons, which provide shared resources called `shares` or `services` to the SMB clients on the network.
 
 They are:
-- smbd
+- **smbd**
   - A daemon that handles file and printer sharing and provides authentication and authorization for SMB clients.
-- nmbd
+- **nmbd**
   - A daemon that supports NetBIOS Name Service and WINS, which is Microsoft's implementation of a NetBIOS Name Server (NBNS). It also assists with network browsing.
