@@ -1,3 +1,7 @@
+---
+description: A brief overview on Samba networking protocol.
+---
+
 # Samba
 
 Samba is an extremely useful networking tool, especially for whom who has both Unix and Windows systems on his network.
@@ -6,5 +10,5 @@ Samba running on the Unix systems, can allow Windows to access, the shares such 
 
 ## What is Samba?
 
-Samba is a suite of Unix applications that speaks SMB\(Server Message Block\) protocol. [more on SMB protocol](test-title.md)
+Samba is a suite of Unix applications that speaks SMB\(Server Message Block\) protocol. [more on SMB protocol](SMB.md)
 
