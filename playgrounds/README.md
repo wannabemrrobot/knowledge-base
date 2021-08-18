@@ -1,1 +1,1 @@
-In this section, there'll be walkthroughs of some of the challenges/tasks of the infamous hacking playgrounds such as `hack the box`, `try hack me` and much more!
+In this section, there'll be walkthroughs of some of the challenges/tasks in the popular hacking playgrounds such as `hack the box`, `try hack me` and much more!
