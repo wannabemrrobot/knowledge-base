@@ -17,7 +17,7 @@ In the FTP transaction, the end user computer is often referred as `localhost` a
 Servers must be setup to run FTP services and a FTP software client is needed at the client end access those services.
 For example, in Microsoft Windows, the user's own computer can be setup as a FTP server using the `Internet Information Services Manager.`
 
-## How to access files using FTP
+## File access via FTP
 Now, there are a couple of ways for accessing the files via FTP.
 
 - FTP client softwares such as *FileZilla*
@@ -29,7 +29,7 @@ Some of the FTP Server configurations allows for an anonymous login, meaning the
 Most of the public online downloading sites, have a FTP user called `anonymous` to allow everyone access to the site's resources without identifying themselves.
 
 ## Security
-FTP was not built to be secure. FTP does not use encryption. For authentication, it relies on cleartext usernames and passwords, making data transmissions sent over FTP vulnerable to ordinary methods of eavesdropping, impersonation and other attacks.
+FTP was **not built to be secure**. FTP does not use **encryption**. For authentication, it relies on **cleartext usernames and passwords**, making data transmissions sent over FTP **vulnerable** to ordinary methods of eavesdropping, impersonation and other attacks.
 
 ## SFTP
 SFTP stands for **Secure File Transfer Protocol**. SFTP is same as FTP, except it does transfers in an encrypted format using the secure shell. Thus, it adds an extra layer of security, making everything like authentication and file transfers in an encrypted way.
