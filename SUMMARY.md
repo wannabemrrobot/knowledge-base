@@ -9,3 +9,4 @@
 * [playgrounds](playgrounds/README.md)
   * [Hack The Box](playgrounds/hack-the-box/README.md)
   * [Try Hack Me](playgrounds/try-hack-me/README.md)
+* [Terminologies](terminologies.md)
